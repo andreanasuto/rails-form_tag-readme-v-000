@@ -795,3 +795,6 @@ Completed 302 Found in 46ms (ActiveRecord: 33.8ms)
 
 Started GET "/posts" for 69.38.225.210 at 2018-01-25 21:20:13 +0000
 Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.3ms)
