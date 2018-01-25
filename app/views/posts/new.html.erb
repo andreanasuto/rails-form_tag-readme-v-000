@@ -2,7 +2,7 @@
 
 <%= form_tag posts_path%>
   <label>Post title</label><br>
-  <input type="text" name="post[title]" id="post_title"><br>
+  <%= text_area_tag 'post[title]' %>
 
   <label>Post description</label><br>
   <textarea name="post[description]" id="post_description"></textarea><br>
